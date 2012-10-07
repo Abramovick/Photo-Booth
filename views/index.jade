@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  #wrapper
+    h1 Photo Booth
+    #left
+      video(id='liveVideo', width='450px', height='400px', autoplay='autoplay', controls)
+      input(id='camera', type='button', value='Start Camera')
+    #right
+      canvas(id='picture', width='450px', height='400px')
+      input(id='capture', type='button', value='Take Photo')
+    #thumbnails

@@ -1,0 +1,81 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+  	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  	width: 100%;
+  	background: #eee;
+}
+
+h1 {
+	text-align: center;
+	color: blue;
+}
+
+#wrapper {
+	padding: 5px;
+}
+
+#left {
+	display: inline-block;
+	width: 490px;
+}
+
+#liveVideo {
+	border: 1px dotted green;
+}
+
+#camera {
+	display: block;
+	height: 2.5em;
+	width: 10em;
+}
+
+#right {
+	display: inline-block;
+	width: 490px;
+	margin-left: 15px;
+}
+
+#picture {
+	border: 1px dotted green;
+}
+
+#capture {
+	display: block;
+	height: 2.5em;
+	width: 10em;
+}
+
+#thumbnails {
+	padding: 1px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#thumbnails div {
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+   	background: rgba(0,0,0,0.15);
+   	box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+   	-o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+   	-webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+   	-moz-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+}
+
+#thumbnails div label {
+	color: blue;
+	display: block;
+}
+
+#thumbnails img {
+	margin: 1em;
+	width: 150px;
+	height: 150px;
+	padding: 0;
+   	border-radius: 10px;
+}
